@@ -7,7 +7,7 @@ int main(void){
   int x,y;
   for(y=9;y>0;y--){
     for(x=9;x>0;x--){
-      printf("%d ",x*y);
+      printf("%2d ",x*y);//表示がきれいになる
     }
     putchar('\n');
   }

@@ -2,6 +2,7 @@
 //u306065 K.Kazuki
 #include<stdio.h>
 int main(void){
+  //max,minの指定の仕方を考える(2-4.c参照)
   int max=0,min=65535,i,max_num,min_num,num,input;
   float sum=0;
   
