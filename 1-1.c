@@ -11,7 +11,7 @@ int main(void){
     if(input>0){
       i++;
       if(max<input){
-	      max=input;
+	max=input;
       }
     }else{
       printf("値は正の数ではありません\n");

@@ -14,7 +14,6 @@ int main(void){
       break;
     }
 
-    //どうしての時以外は0から始めることをおすすめする
     for(i=1;i<=hight;i++){
       for(j=1;j<=width;j++){
         if(i==1||i==hight||j==1||j==width){
