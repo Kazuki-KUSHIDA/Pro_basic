@@ -11,7 +11,7 @@ int main(void){
     
     //-1以外の負数の入力が検出された場合強制終了する
     if(input < -1){
-      exit(1);
+      exit(EXIT_FAILURE);
     }
 
     if(input % 10 == 0){
