@@ -16,7 +16,7 @@ int main(void){
     printf("b:");
     scanf("%d",&input[1]);
     if(input[1] <= 0){
-      goto input_b;
+      goto input_b;//goto使わない
     }
     break;
   }
