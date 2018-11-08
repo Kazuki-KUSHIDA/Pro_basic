@@ -25,7 +25,7 @@ void get_array(void){
 }
 
 void search_data(void){
-  int search , i , j = 0 , k = 0 , l = 0;
+  int search , i , j = 0 , k = 0 , l = 0; //i,j,k,lは増分
   int small[SIZE] , equal[SIZE] , big[SIZE];
 
   printf("検索用データを入力してください: ");
