@@ -4,7 +4,7 @@
 #include<stdio.h>
 #define SIZE 20
 
-void get_score(int array[],int n);
+void get_score(int score[],int n);
 void error_message(int point);
 void show_array(int array[],int n);
 int max_array(int array[],int n);
@@ -24,14 +24,14 @@ int main(void){
   return 0;
 }
 
-void get_score(int array[],int n){
+void get_score(int score[],int n){
   int i = 0;
 
   while( i < n ){
     printf("No.%d:",i+1);
-    scanf("%d",&array[i]);
-    if( array[i] < 0 || array[i] > 100 ){
-      error_message(array[i]);
+    scanf("%d",&score[i]);
+    if( score[i] < 0 || score[i] > 100 ){
+      error_message(score[i]);
       continue;
     }
     i++;
